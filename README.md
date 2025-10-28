@@ -15,7 +15,7 @@
 - Set parameters and the save path (./ckps/DASFF-Net/) in the options_cod.py file, then run the DASFFNet_train_cod.py file.
 
 ## 1.4 Testing Configuration:
-- After you download all the pre-trained model and testing dataset, just run DASFF-Net_test_cod.py to generate the final prediction map.
+- After you download all the pre-trained model and testing dataset, just run DASFFNet_test_cod.py to generate the final prediction map.
 
 ## 1.5 Evaluating your trained model:
 Assigning your costumed path, like method, mask_root and pred_root in eval.py. Just run eval.py to evaluate the trained model.
