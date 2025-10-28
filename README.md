@@ -6,12 +6,13 @@
 - Installing necessary packages: `pip install -r requirements.txt`.
 
 ## 1.2 Downloading necessary data:
-- downloading testing dataset and move it into ./CodDataset/TestDataset/, which can be found in this download link (https://pan.baidu.com/s/12lYTC_YPb4jVZdM4l1rK9Q  Code: 1234).
-- downloading training dataset and move it into ./CodDataset/TrainDataset/, which can be found in this download link (https://pan.baidu.com/s/12lYTC_YPb4jVZdM4l1rK9Q  Code: 1234).
-- downloading smt pretrained weights and move it into ./smt_tiny.pth, which can be found in this download link (https://pan.baidu.com/s/12lYTC_YPb4jVZdM4l1rK9Q  Code: 1234).
+- downloading testing dataset and move it into ./CodDataset/TestDataset/, which can be found in this download link (https://pan.baidu.com/s/13NXKz1ID2KexKJ630HyOuQ 提取码: 1234).
+- downloading training dataset and move it into ./CodDataset/TrainDataset/, which can be found in this download link (https://pan.baidu.com/s/13NXKz1ID2KexKJ630HyOuQ 提取码: 1234).
+- downloading smt_t pretrained weights and move it into ./smt_tiny.pth, which can be found in this download link (https://pan.baidu.com/s/13NXKz1ID2KexKJ630HyOuQ 提取码: 1234).
+- downloading mobilevit_s pretrained weights and move it into ./mobilevit_s.pth, which can be found in this download link (https://pan.baidu.com/s/13NXKz1ID2KexKJ630HyOuQ 提取码: 1234).
 
 ## 1.3 Training Configuration:
-- Set parameters and the save path (./ckps/DASFF-Net/) in the options_cod.py file, then run the PEMFNet_train_cod.py file.
+- Set parameters and the save path (./ckps/DASFF-Net/) in the options_cod.py file, then run the DASFFNet_train_cod.py file.
 
 ## 1.4 Testing Configuration:
 - After you download all the pre-trained model and testing dataset, just run DASFF-Net_test_cod.py to generate the final prediction map.
@@ -21,7 +22,7 @@ Assigning your costumed path, like method, mask_root and pred_root in eval.py. J
 
 # 2. Our Results
 - The pre-computed maps of DASFF-Net can be found in this download link (https://pan.baidu.com/s/13NXKz1ID2KexKJ630HyOuQ 提取码: 1234).
-
+- The pre-computed weights of DASFF-Net can be found in this download link (https://pan.baidu.com/s/13NXKz1ID2KexKJ630HyOuQ 提取码: 1234).
 
 # Contact
 Feel free to send e-mails to me (2669061453@qq.com).<br>
