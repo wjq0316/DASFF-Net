@@ -157,14 +157,14 @@ def main():
     model = DASFCNet()
     if os.path.exists("ckps/smt/smt_tiny.pth"):
         model.rgb_backbone.load_state_dict(
-            torch.load("/media/sff/disk-2/wjq/MAGNet-main/ckps/smt/smt_tiny.pth")['model'])
+            torch.load("./ckps/smt_tiny.pth")['model'])
 
-        model.d_backbone.load_state_dict(torch.load("/media/sff/disk-2/wjq/MAGNet-main (1)/ckps/mobilevit_s.pt"
+        model.d_backbone.load_state_dict(torch.load("./ckps/mobilevit_s.pt"
                                                     ), strict=False)
-        print(f"loaded imagenet pretrained MobileVit from ckps/smt")
-        print(f"loaded imagenet pretrained MobileVit from ckps/mobilevit_s.pt")
+        print(f"loaded imagenet pretrained smt_tiny.pth from ckps")
+        print(f"loaded imagenet pretrained mobilevit_s.pth from ckps")
     else:
-        raise Exception("please put smt_tiny.pth under ckps/smt/ folder")
+        raise Exception("please put smt_tiny.pth under ckps/smt/folder")
 
     model.cuda()
 
@@ -221,3 +221,4 @@ def main():
 if __name__ == '__main__':
     mp.freeze_support()  # Windows多进程支持（必须在main()前调用）
     main()  # 执行主函数
+
