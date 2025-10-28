@@ -21,7 +21,6 @@ Assigning your costumed path, like method, mask_root and pred_root in eval.py. J
 
 # 2. Our Results
 - The pre-computed maps of DASFF-Net can be found in this download link (https://pan.baidu.com/s/13NXKz1ID2KexKJ630HyOuQ 提取码: 1234).
-- The best pretrained weights of DASFF-Net can be found in this download link (https://pan.baidu.com/s/13NXKz1ID2KexKJ630HyOuQ 提取码: 1234).
 
 
 # Contact
