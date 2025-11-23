@@ -1,4 +1,4 @@
-# Depth-Assisted Spatial-Frequency Fusion for Camouflaged Object Detection
+# Depth-Assisted Spatial-Frequency Fusion Network for Camouflaged Object Detection
 
 # 1. Requirements
 ## 1.1 Configuring your environment (Prerequisites):
